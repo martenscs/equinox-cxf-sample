@@ -1,0 +1,12 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.martenscs.cxf.json</groupId>
+  <artifactId>net.martenscs.cxf.json</artifactId>
+  <packaging>eclipse-plugin</packaging>
+  <parent>
+  	<groupId>net.martenscs.osgi</groupId>
+  	<artifactId>equinox-cxf-sample-build</artifactId>
+  	<version>1.0.0-SNAPSHOT</version>
+  	<relativePath>../equinox-cxf-sample-build</relativePath>
+  </parent>
+</project>

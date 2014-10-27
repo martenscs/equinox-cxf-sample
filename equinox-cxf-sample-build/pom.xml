@@ -15,6 +15,8 @@
 
 		<module>../net.martenscs.cxf.service</module>
 		<module>../net.martenscs.cxf.service.impl</module>
+		<module>../net.martenscs.cxf.json</module>
+		<module>../net.martenscs.cxf.json.product</module>
 	</modules>
 	<repositories>
 		<repository>
