@@ -16,7 +16,7 @@
 		<module>../net.martenscs.cxf.service</module>
 		<module>../net.martenscs.cxf.service.impl</module>
 		<module>../net.martenscs.cxf.json</module>
-		<module>../net.martenscs.cxf.json.product</module>
+		<module>../net.martenscs.cxf.json.numbers</module>
 	</modules>
 	<repositories>
 		<repository>
@@ -34,7 +34,16 @@
 			<url>http://download.eclipse.org/eclipse/updates/3.8</url>
 			<layout>p2</layout>
 		</repository>
-
+		<repository>
+			<id>my-orbit</id>
+			<url>http://p2.martenscs.net/orbit</url>
+			<layout>p2</layout>
+		</repository>
+		<repository>
+			<id>cxf</id>
+			<url>http://p2.martenscs.net/cxf/2.7.13</url>
+			<layout>p2</layout>
+		</repository>
 	</repositories>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
