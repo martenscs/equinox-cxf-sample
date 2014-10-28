@@ -17,6 +17,8 @@
 		<module>../net.martenscs.cxf.service.impl</module>
 		<module>../net.martenscs.cxf.json</module>
 		<module>../net.martenscs.cxf.json.numbers</module>
+		<module>../net.martenscs.cxf.soap.bookstore</module>
+		<module>../net.martenscs.cxf.contract.doubleit</module>
 	</modules>
 	<repositories>
 		<repository>

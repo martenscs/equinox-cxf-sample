@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?pde version="3.8"?>
 
-<target name="cxf" sequenceNumber="86">
+<target name="cxf" sequenceNumber="89">
 <locations>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="org.equinox.osgi.runtime.feature.group" version="0.0.1.201410081534"/>
@@ -15,19 +15,20 @@
 <repository location="http://p2.martenscs.net/karaf/framework/3.0.1/"/>
 </location>
 <location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="jackson-jaxrs.feature.group" version="1.9.13"/>
+<unit id="jackson-jaxrs.source.feature.group" version="1.9.13"/>
+<repository location="http://p2.martenscs.net/orbit"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="cxf.feature.group" version="2.7.13"/>
+<unit id="cxf.source.feature.group" version="2.7.13"/>
+<repository location="http://p2.martenscs.net/cxf/2.7.13"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
 <unit id="spring.feature.group" version="3.2.4.RELEASE"/>
 <unit id="spring-dm.feature.group" version="1.2.1"/>
 <unit id="spring-dm-web.feature.group" version="1.2.1"/>
 <repository location="http://p2.martenscs.net/karaf/spring/3.0.1/"/>
-</location>
-<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="cxf.feature.group" version="2.7.13"/>
-<repository location="http://p2.martenscs.net/cxf/2.7.13"/>
-</location>
-<location includeAllPlatforms="false" includeConfigurePhase="false" includeMode="planner" includeSource="true" type="InstallableUnit">
-<unit id="jackson-jaxrs.feature.group" version="1.9.13"/>
-<unit id="jackson-jaxrs.source.feature.group" version="1.9.13"/>
-<repository location="http://p2.martenscs.net/orbit"/>
 </location>
 </locations>
 </target>
